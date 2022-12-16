@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+
+.carousel-text h3 {
+  font-size: 50px;
+  text-shadow: -2px 2px 2px #000,
+    2px 2px 2px #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.carousel-text p {
+  font-size: 30px;
+  text-shadow: -1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    font-weight: bold;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+.show-image-container {
+  position: relative;
+}
+
+.show-image-header {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 6px #606060;
+}
+
+.show-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.rest-form {
+  margin-top: 20px;
+  background-color: #f2f6ec;
+  border-radius: 15px;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+#footer img {
+  width: 95px;
+  height: auto;
+  margin-top: -10px;
+  margin-right: -5px;
+}
